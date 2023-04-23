@@ -1,0 +1,89 @@
+
+
+
+body{
+    background-color: bisque;
+}
+
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 350px;
+    height: 420px;
+    margin:40px;
+    text-align: center;   
+    font-family: arial;
+    background-color:white;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px gray;
+  }
+  
+.card .h1text{
+    text-align: left;
+    font-size: 25px;
+    color:rgba(105, 45, 34, 0.562);
+    padding-left: 20px;
+}
+
+.card .ptext{
+    margin-right:20px;
+}
+
+.card .price{
+    display: inline;
+    font-size: 25px;
+    text-align: left;
+    color:rgba(105, 45, 34, 0.562) ;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    margin-left: 10px;
+}
+
+.card .ptext .p1{
+    margin-right:45px;
+}
+  
+.card .ptext .p2{
+    margin-right:175px;
+}
+  .card .btn {
+    border:solid;
+    border-color:white;
+    border-radius: 25px;
+    outline: 0;
+    padding: 12px;
+    background-color:rgba(105, 45, 34, 0.562);
+    cursor: pointer;
+    width: 35%;
+    margin-left: 100px;
+    margin-top:10px ;
+    cursor: pointer;
+  }
+
+  .card .btntext{
+    font-size: 16px;
+    color: white;
+  }
+  
+  .card button:hover {
+    background-color:black;
+  }
+  
+
+  .cardimg{
+    padding-top: 15px;
+
+  }
+
+  .card_contanier{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 10px;
+    margin-left: 10px;
+  }
+
+  .card_contanier .card2
+  {
+   margin-left: 10px; 
+}
